@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+    <!-- Verify this listener class exists and implements proper interfaces -->
+    <listener class-name="listener.MyListenerClass"/>
+  </listeners>
+  
+  <test name="Login_Test_Suite">
+    <!-- Verify this test class exists and has @Test methods -->
+    <classes>
+      <class name="tests.LoginTests"/>
+    </classes>
+  </test>
+</suite>
